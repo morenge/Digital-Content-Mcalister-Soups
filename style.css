@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "BourtonHandBase";
+    src: url(fonts/BourtonHandBase.otf);
+}
+
+@font-face {
+    font-family: "DINOT-CondMedium";
+    src: url(fonts/DINOT-CondMedium.otf);
+}
+
+@font-face {
+    font-family: "DINOT-CondBold";
+    src: url(fonts/DINOT-CondBold.otf);
+}
+
+@font-face {
+    font-family: "DINOT-Cond";
+    src: url(fonts/DINOT-Cond.otf);
+}
+
+@font-face {
+    font-family: "MicrobrewOne";
+    src: url(fonts/MicrobrewOne.otf);
+}
+
+html {
+    overflow: visible;
+    background-color: black;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 640px;
+    height: 1080px;
+    overflow: hidden;
+    background-color: #413c36;
+
+}
+
+.asset-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 640px;
+    height: 1080px;
+    text-align: center;
+}
+
+.header-soups {
+    font-size: 120px;
+    font-family: "BourtonHandBase";
+    color: #d8833c;
+    margin-top: 50px;
+    /*    padding-left: 10px;*/
+}
+.header-Desserts{
+    font-size: 120px;
+    font-family: "BourtonHandBase";
+    color: #6cb2c2;
+    margin-top: 50px; 
+}
+
+.header-premium {
+    display: inline;
+    font-family: "DINOT-Cond";
+    color: #f0d283;
+    font-size: 37.25px;
+}
+
+.cals {
+    font-size: 80px;
+    color: #fff;
+    font-family: "DINOT-Cond";
+    font-size: 37.25px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.desc {
+    font-size: 80px;
+    color: #fff;
+    font-family: "DINOT-Cond";
+    font-size: 37.25px;
+    text-align: center;
+    margin-top: -5px;
+    display: block;
+}
+
+.Price {
+    font-size: 80px;
+    color: #fff;
+    font-family: "DINOT-CondBold";
+    font-size: 37.25px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.dollar {
+    font-size: 80px;
+    color: #fff;
+    font-family: "DINOT-CondBold";
+    font-size: 37.25px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.Calories {
+    font-size: 80px;
+    color: #fff;
+    font-family: "DINOT-CondBold";
+    font-size: 37.25px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.item {
+    font-family: "MicrobrewOne";
+    font-size: 45.65px;
+    color: #fff;
+    display: inline;
+    text-align: center;
+    line-height: 45px
+}
+
+.item-wrapper {
+    margin-bottom: 10px;
+}
+
+.header-wrapper {
+    position: relative;
+    top: 25px;
+}
+
+.menu-wrapper {
+    position: relative;
+    top: 10px;
+}
+.item-wrap {
+    display:flex;
+    padding: 5px;
+    flex-wrap:wrap;
+    padding-left: 60px;
+    margin-bottom:100px;
+   
+}
+.header-Desserts{
+    font-size:100px;
+    
+}
+/*.bullet {
+    font-size:100px; */
+   
+
+
+
+
+.chrome {}
